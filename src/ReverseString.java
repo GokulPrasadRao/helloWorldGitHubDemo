@@ -5,9 +5,9 @@ public class ReverseString {
         System.out.println("Enter a text");
         Scanner scanner = new Scanner(System.in);
 
-        String ori = scanner.nextLine();
+        String original = scanner.nextLine();
 
-        StringBuilder rev = new StringBuilder(ori);
+        StringBuilder rev = new StringBuilder(original);
         rev.reverse();
 
         System.out.println(rev);
